@@ -19,7 +19,7 @@ pkg install python2
 clear
 python2 __main__.py
 clear
-figlet -f slant "Masukkan Nama Pengguna"|lolcat
+echo $ku "Masukkan Nama Pengguna"
 read nick
 clear
 echo $ku Update Database AntiVirus ya @$nick | lolcat
